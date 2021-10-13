@@ -14,5 +14,7 @@
     - name: Copy index file
       copy:
         src: index.html
-        dest: /var/www/index.html
+        dest: /var/www/html/
+        
+...
       
