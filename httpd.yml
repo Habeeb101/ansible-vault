@@ -12,4 +12,7 @@
        state: started
        enabled: ture
     - name: Copy index file
+      copy:
+        src: index.html
+        dest: /var/www/index.html
       
